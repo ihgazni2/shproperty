@@ -46,8 +46,8 @@ Table of Contents
         sp.getPropertyNames(arr,2)
         
         
-![](/Images/getPropertyNames.0.PNG)
-![](/Images/getPropertyNames.1.PNG)  
+![](/IMAGES/getPropertyNames.0.PNG)
+![](/IMAGES/getPropertyNames.1.PNG)  
 
 ### getEnumerablePropertyNames(obj,fromDepth,toDepth) 
 
@@ -60,14 +60,14 @@ Table of Contents
         sp.getNoEnumerablePropertyNames(arr,2)        
 
 
-![](/Images/getEnum.0.PNG)
+![](/IMAGES/getEnum.0.PNG)
 
 
 ### getInheritedPropertyNames(obj,fromDepth,toDepth)
 
         getInheritedPropertyNames(arr,2)
 
-![](/Images/getInherited.0.PNG)
+![](/IMAGES/getInherited.0.PNG)
 
 ### getInheritedEnumerablePropertyNames(obj,fromDepth,toDepth)
 
@@ -80,7 +80,7 @@ Table of Contents
 
 ### getOwnNoEnumerablePropertyNames(obj)
 
-![](/Images/getOwn.0.PNG)
+![](/IMAGES/getOwn.0.PNG)
 
 
 ### getInheritedPropertyNamesAtDepth(obj,depth)
