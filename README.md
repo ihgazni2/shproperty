@@ -1,3 +1,8 @@
+# shproperty
+>__recursively show PropertyNames of javascript Object__
+
+
+
 Table of Contents
 =================
 
@@ -22,8 +27,6 @@ Table of Contents
 
 
 
-# shproperty
->__recursively show PropertyNames of javascript Object__
 
 # Install
 
