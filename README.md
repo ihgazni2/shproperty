@@ -1,4 +1,4 @@
-# xexif
+# shproperty
 >__recursively show PropertyNames of javascript Object__
 
 # Install
