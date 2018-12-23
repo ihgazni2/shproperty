@@ -1,0 +1,5 @@
+cd shproperty
+npm init
+npm adduser
+npm publish
+

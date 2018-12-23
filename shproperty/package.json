@@ -1,0 +1,23 @@
+{
+  "name": "shproperty",
+  "version": "1.0.0",
+  "description": "recursively show PropertyNames of javascript Object",
+  "main": "shproperty.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ihgazni2/shproperty.git"
+  },
+  "keywords": [
+    "property",
+    "js"
+  ],
+  "author": "dli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ihgazni2/shproperty/issues"
+  },
+  "homepage": "https://github.com/ihgazni2/shproperty#readme"
+}
