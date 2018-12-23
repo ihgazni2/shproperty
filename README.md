@@ -1,3 +1,27 @@
+Table of Contents
+=================
+
+
+   * [shproperty](#shproperty)
+   * [Install](#install)
+      * [Usage](#usage)
+         * [getPropertyNames(obj,fromDepth,toDepth)](#getpropertynamesobjfromdepthtodepth)
+         * [getEnumerablePropertyNames(obj,fromDepth,toDepth)](#getenumerablepropertynamesobjfromdepthtodepth)
+         * [getNoEnumerablePropertyNames(obj,fromDepth,toDepth)](#getnoenumerablepropertynamesobjfromdepthtodepth)
+         * [getInheritedPropertyNames(obj,fromDepth,toDepth)](#getinheritedpropertynamesobjfromdepthtodepth)
+         * [getInheritedEnumerablePropertyNames(obj,fromDepth,toDepth)](#getinheritedenumerablepropertynamesobjfromdepthtodepth)
+         * [getInheritedNoEnumerablePropertyNames(obj,fromDepth,toDepth)](#getinheritednoenumerablepropertynamesobjfromdepthtodepth)
+         * [getOwnPropertyNames(obj)](#getownpropertynamesobj)
+         * [getOwnEnumerablePropertyNames(obj)](#getownenumerablepropertynamesobj)
+         * [getOwnNoEnumerablePropertyNames(obj)](#getownnoenumerablepropertynamesobj)
+         * [getInheritedPropertyNamesAtDepth(obj,depth)](#getinheritedpropertynamesatdepthobjdepth)
+         * [getInheritedEnumerablePropertyNamesAtDepth(obj,depth)](#getinheritedenumerablepropertynamesatdepthobjdepth)
+         * [getInheritedNoEnumerablePropertyNamesAtDepth(obj,depth)](#getinheritednoenumerablepropertynamesatdepthobjdepth)
+         * [getAncestorAtDepth(obj,depth)](#getancestoratdepthobjdepth)
+         * [getPrototypeChain(obj)](#getprototypechainobj)
+
+
+
 # shproperty
 >__recursively show PropertyNames of javascript Object__
 
