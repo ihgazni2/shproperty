@@ -26,8 +26,6 @@ Table of Contents
          * [getPrototypeChain(obj)](#getprototypechainobj)
 
 
-
-
 # Install
 
 >__npm install shproperty__
