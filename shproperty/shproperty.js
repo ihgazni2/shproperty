@@ -103,7 +103,7 @@ function getTem(obj,func,fromDepth,toDepth) {
     fromDepth = tmp[1]
     toDepth = tmp[2]
     chain = chain.slice(fromDepth,toDepth)
-    let arr = chain.map(getOwnPropertyNames)
+    let arr = chain.map(func)
     return(Array.prototype.concat.apply([],arr))
 }
 
