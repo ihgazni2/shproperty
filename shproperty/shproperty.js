@@ -152,6 +152,11 @@ function getNoEnumerablePropertyNames(obj,fromDepth,toDepth){
 }
 
 
+function getConstructorName(obj) {
+    let name = Object.getPrototypeOf(obj).constructor.name
+    return(name)
+}
+
 module.exports = {
     getPropertyNames:getPropertyNames,
     getEnumerablePropertyNames:getEnumerablePropertyNames,
@@ -166,6 +171,7 @@ module.exports = {
     getInheritedNoEnumerablePropertyNamesAtDepth:getInheritedNoEnumerablePropertyNamesAtDepth,
     getInheritedPropertyNames:getInheritedPropertyNames,
     getInheritedEnumerablePropertyNames:getInheritedEnumerablePropertyNames,
-    getInheritedNoEnumerablePropertyNames:getInheritedNoEnumerablePropertyNames
+    getInheritedNoEnumerablePropertyNames:getInheritedNoEnumerablePropertyNamesi,
+    getConstructorName:getConstructorName
 }
 
