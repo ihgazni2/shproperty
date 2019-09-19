@@ -171,7 +171,7 @@ module.exports = {
     getInheritedNoEnumerablePropertyNamesAtDepth:getInheritedNoEnumerablePropertyNamesAtDepth,
     getInheritedPropertyNames:getInheritedPropertyNames,
     getInheritedEnumerablePropertyNames:getInheritedEnumerablePropertyNames,
-    getInheritedNoEnumerablePropertyNames:getInheritedNoEnumerablePropertyNamesi,
+    getInheritedNoEnumerablePropertyNames:getInheritedNoEnumerablePropertyNames,
     getConstructorName:getConstructorName
 }
 
